@@ -1,0 +1,25 @@
+{
+    "test_results": [
+      {
+        "test_name": "test_1",
+        "status": "fail",
+        "coverage": {
+          "parent_method_1": "covered",
+          "parent_method_2": "not_covered",
+          "child_method_1": "covered",
+          "child_method_2": "not_covered"
+        }
+      },
+      {
+        "test_name": "test_2",
+        "status": "pass",
+        "coverage": {
+          "parent_method_1": "covered",
+          "parent_method_2": "covered",
+          "child_method_1": "covered",
+          "child_method_2": "covered"
+        }
+      }
+    ]
+  }
+  
